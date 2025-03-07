@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Register Number:
-## Name:
+# Date: 07/03/2025
+## Register Number: 212223240141
+## Name: RIYA P L
 ## Problem Title
 SIH 1653: Web based Selector-Applicant Simulation Software
 ## Problem Description
@@ -11,16 +11,79 @@ Background: Recruitment and Assessment Centre (RAC) under DRDO, Ministry of Defe
 Ministry of Defence
 
 ## Idea
+### AI-Powered Question Generation: 
+Generates relevant questions based on the applicant's expertise and job role.
 
+### Speech & Text Analysis: 
+Analyzes responses for clarity, relevance, and depth using NLP.
+
+### Automated Scoring System: 
+Grades candidate answers based on predefined evaluation criteria.
+
+### Virtual Interview Environment: 
+Simulates real-life interview settings with interactive UI/UX.
+
+### Bias Reduction: 
+Ensures fairness by standardizing the assessment process.
+
+### Detailed Reports: 
+Provides insights on candidate strengths, weaknesses, and overall suitability.
 
 ## Proposed Solution / Architecture Diagram
-
+![alt text](<DALL·E 2025-03-07 11.00.24 - A basic block diagram for a Web-based Selector-Applicant Simulation Software with only three blocks___- _Candidate__- _Interview System__- _Final Scor.webp>)
 
 ## Use Cases
-
+![alt text](<DALL·E 2025-03-07 11.02.59 - A very simple use case diagram for a Web-based Selector-Applicant Simulation Software. The diagram should include___- Two main actors_ _Candidate_ and.webp>)
 
 ## Technology Stack
+### Frontend:
 
+React.js / Angular (User Interface)
+
+Bootstrap / Tailwind CSS (Styling)
+
+### Backend:
+
+Node.js / Django / Flask (Server-side logic)
+
+Express.js (for RESTful API management)
+
+### AI & Machine Learning:
+
+OpenAI GPT / BERT (NLP for question generation & answer evaluation)
+
+Google Speech-to-Text / Whisper AI (Speech recognition)
+
+TensorFlow / PyTorch (Machine learning models for scoring)
+
+### Database:
+
+PostgreSQL / MySQL (Structured data storage)
+
+MongoDB (For semi-structured data & logs)
+
+### Cloud & Hosting:
+
+AWS / Google Cloud / Azure (Scalability & security)
+
+Firebase (Real-time database & authentication)
 
 ## Dependencies
 
+### NLP Libraries: 
+spaCy, NLTK, OpenAI API (for question generation & response analysis)
+
+### Speech Recognition: 
+Google Speech API, DeepSpeech, Whisper AI
+
+### Cloud Services: 
+AWS Lambda, Firebase Authentication
+
+### Database Management: 
+SQLAlchemy, Mongoose (for handling database operations)
+
+### Frontend Frameworks: 
+React.js, Redux, Material-UI
+
+### Testing & Deployment: 
+Jest, Selenium, Docker, Kubernetes
